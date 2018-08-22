@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class Servlet {
-@RequestMapping(value={"/he"})
+@RequestMapping(value={"/hello"})
 public String index(HttpServletRequest request){
     return "123445";
 }
